@@ -1,0 +1,53 @@
+.header {
+
+}
+.header__upper {
+	min-height: 56px;
+	display: grid;
+	grid-template-columns: minmax(402px, 528px) 235px minmax(326px, 528px);
+	align-items: center;
+}
+.header__left-up {
+	display: flex;
+	
+}
+.header__phone-container {
+	margin-right: 63px;
+}
+.header__up-links {
+	font-family: 'Hind Siliguri';
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 23px;
+}
+.header__handset {
+	margin-right: 12px;
+	display: inline-block;
+	vertical-align: middle;
+}
+.header__email-container {
+	margin-right: 10px;
+}
+.header__email {
+	margin-right: 10.4px;
+	display: inline-block;
+	vertical-align: middle;
+}
+.header__center-up {
+	margin-right: 10px;
+}
+.header__center-links{
+	font-family: 'Hind Siliguri';
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 29px;
+	color: #9E3040;
+}
+.header__right-up {
+	justify-self: end
+}
+.header__map {
+	margin-right: 13px;
+	display: inline-block;
+	vertical-align: middle;
+}
