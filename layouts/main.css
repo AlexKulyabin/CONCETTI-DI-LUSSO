@@ -1,0 +1,59 @@
+.main {
+	grid-area: main;
+}
+.section-1 {
+	min-height: 750px;
+	display: grid;
+	grid-template-rows: 236px auto 236px;
+	grid-template-columns: 1fr minmax(auto, 1280px) 1fr;
+	background: url(/img/main/BG_section-1.png) center/cover no-repeat;
+	align-items: center
+
+}
+.section-1__container {
+	grid-column: 2 / 3;
+	grid-row: 2 / 3;
+	display: grid;
+	max-height: 280px;
+	align-items: center;
+
+}
+.section-1__title {
+	font-family: 'Hind Siliguri';
+	font-weight: 600;
+	font-size: 64px;
+	line-height: 117.1%;
+	color: #FFFFFF;
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	letter-spacing: 1px;
+}
+.section-1__text {
+	font-family: 'Open Sans';
+	font-weight: 400;
+	font-size: 24px;
+	line-height: 33px;
+	color: #FFFFFF;
+}
+.section-1__button {
+	position: relative;
+	width: 187px;
+	height: 49px;
+	padding: 10px 28px 10px 27px;
+	background: #FFFFFF;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.25);
+	border-radius: 5px;
+	font-family: 'Hind Siliguri';
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 29px;
+	color: #9E3040;
+	letter-spacing: 0.5px;
+
+
+}
+.section-1__button-link {
+	margin-right: 4px;
+}
+.section-1__arrow {
+	margin-top: 9px;
+}

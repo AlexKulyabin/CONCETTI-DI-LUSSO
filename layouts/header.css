@@ -1,53 +1,159 @@
 .header {
+	grid-area: header;
+	display: grid;
+}
+.header-up {
+	height: 56px;
+	padding: 10px;
+	display: grid;
+	grid-template-columns: 1fr minmax(auto, 420px) minmax(auto, 440px) minmax(auto, 420px) 1fr;
+	background-color: #F7F7F7;
+	align-content: center
 
 }
-.header__upper {
-	min-height: 56px;
-	display: grid;
-	grid-template-columns: minmax(402px, 528px) 235px minmax(326px, 528px);
-	align-items: center;
-}
-.header__left-up {
+.header-up__left {
+	grid-column: 2 / 3;
 	display: flex;
-	
+    align-items: center;
 }
-.header__phone-container {
+.header-up__handset {
+	margin-right: 16px;
+}
+.header-up__phone {
+	font-family: 'Hind Siliguri';
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 23px;
 	margin-right: 63px;
 }
-.header__up-links {
+.header-up__envelope {
+	margin-right: 14px;
+}
+.header-up__email {
 	font-family: 'Hind Siliguri';
 	font-weight: 400;
 	font-size: 14px;
 	line-height: 23px;
 }
-.header__handset {
-	margin-right: 12px;
-	display: inline-block;
-	vertical-align: middle;
+.header-up__center {
+	grid-column: 3 / 4;
+	display: flex;
+    align-items: center;
+	justify-content: center;
 }
-.header__email-container {
-	margin-right: 10px;
-}
-.header__email {
-	margin-right: 10.4px;
-	display: inline-block;
-	vertical-align: middle;
-}
-.header__center-up {
-	margin-right: 10px;
-}
-.header__center-links{
+.header-up__free-shop {
 	font-family: 'Hind Siliguri';
+	font-style: normal;
 	font-weight: 600;
 	font-size: 18px;
 	line-height: 29px;
 	color: #9E3040;
+	letter-spacing: 0.3px;
 }
-.header__right-up {
-	justify-self: end
+.header-up__right {
+	grid-column: 4 / 5;
+	display: flex;
+    align-items: center;
+	justify-content: end;
 }
-.header__map {
-	margin-right: 13px;
-	display: inline-block;
-	vertical-align: middle;
+.header-up__map {
+	margin-right: 15px;
+}
+.header-up__address {
+	font-family: 'Hind Siliguri';
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 23px;
+}
+
+.header-low {
+	height: 109px;
+	padding: 10px;
+	display: grid;
+	grid-template-columns: 1fr minmax(auto, 420px) minmax(auto, 440px) minmax(auto, 420px) 1fr;
+	align-content: center
+
+}
+.logo {
+	grid-column: 2 / 3;
+	display: flex;
+    align-items: center;
+}
+.logo__link {
+	font-family: 'Hind Siliguri';
+	font-weight: 600;
+	font-size: 30px;
+	line-height: 49px;
+	color: #9E3040;
+	letter-spacing: 0.5px;
+	}
+.nav {
+	grid-column: 3 / 4;
+	display: flex;
+    align-items: center;
+}
+.nav__list {
+	display: flex;
+    align-items: center;
+	font-family: 'Hind Siliguri';
+	font-weight: 400;
+	font-size: 18px;
+	line-height: 29px;
+	color: #686868;
+	gap: 42px;
+    padding: 0 15px;
+}
+.nav__list li:nth-child(1){
+	font-weight: 500;
+	color: #232323;
+}
+.icon-chevron-down{
+	text-align: center;
+}
+.nav__item {
+	
+}
+.nav__link {
+}
+.header__buttons-box {
+	grid-column: 4 / 5;
+	display: flex;
+    align-items: center;
+	justify-content: end;
+	gap: 20px;
+}
+.header__button {
+	width: 49px;
+	height: 49px;
+	background: #FFFFFF;
+	box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.09);
+	border-radius: 5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	letter-spacing: 0.4px;
+}
+
+.header__button-link {
+}
+.search {
+}
+.heart {
+}
+.basket {
+}
+.sign-in {
+	width: 126px;
+	height: 49px;
+	background: #9E3040;
+	box-shadow: 0px 0px 10px rgba(158, 48, 64, 0.17);
+	border-radius: 5px;
+	padding: 10px 32px;
+	font-family: 'Hind Siliguri';
+	font-style: normal;
+	font-weight: 600;
+	font-size: 18px;
+	line-height: 29px;
+	color: #FFFFFF;
+	margin-left: 6px;
 }
